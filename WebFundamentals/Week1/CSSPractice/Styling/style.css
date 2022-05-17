@@ -1,0 +1,19 @@
+h1 {
+    color:whitesmoke;
+    background-color:black;
+    font-style:cursive;
+}
+h2 {
+    color:aliceblue;
+    background-color:blueviolet;
+    font-weight:light;
+    text-align:center;
+    font-style:italic;
+}
+h3 {
+    color:black;
+    background-color: lightskyblue;
+    text-align:right;
+    text-decoration: underline;
+    
+}
