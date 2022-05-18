@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.Search{
+    width:20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-color: lightseagreen;
+    border-style: groove;
+    border-radius: 40px;
+    margin-top:50px;
+    margin-left:50px;
+    padding: 5px 50px;
+    color:lightseagreen;
+    font-weight:bold;
+    text-align: center;
+}
+.plus{
+    width:50px;
+    height:50px;
+    background-color:aquamarine;
+    border-radius: 50%;
+    font-size:180%;
+    font-weight:bolder;
+    color:whitesmoke;
+    margin: left 5px;0px;
+    text-align: center;
+    vertical-align:middle;
+    display: table-cell
+}
+.pluscontainer{
+    margin-left:50px;
+    margin-top:20px;
+}
+.createaccount{
+    background-color:royalblue;
+    width:150px;
+    height:30px;
+    box-shadow: 10px 5px 5px black;
+    margin-left:50px;
+    margin-top:20px;
+    margin-bottom:-10px;
+    padding: 5px 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-style:groove;
+    border-color: black;
+    color:whitesmoke;
+}
+
