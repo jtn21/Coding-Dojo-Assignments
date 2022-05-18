@@ -3,7 +3,7 @@
     padding:0px;
 }
 .Search{
-    width:20px;
+    width:120px;
     background-color: aliceblue;
     border-radius: 5px;
     border-color: lightseagreen;
@@ -11,28 +11,25 @@
     border-radius: 40px;
     margin-top:50px;
     margin-left:50px;
-    padding: 5px 50px;
+    padding: 5px;
     color:lightseagreen;
     font-weight:bold;
-    text-align: center;
+
 }
 .plus{
     width:50px;
     height:50px;
     background-color:aquamarine;
     border-radius: 50%;
+    border: none;
     font-size:180%;
     font-weight:bolder;
     color:whitesmoke;
-    margin: left 5px;0px;
-    text-align: center;
-    vertical-align:middle;
-    display: table-cell
-}
-.pluscontainer{
     margin-left:50px;
-    margin-top:20px;
+    margin-top:10px;
 }
+
+
 .createaccount{
     background-color:royalblue;
     width:150px;
@@ -42,8 +39,6 @@
     margin-top:20px;
     margin-bottom:-10px;
     padding: 5px 10px;
-    text-align: center;
-    vertical-align: middle;
     border-style:groove;
     border-color: black;
     color:whitesmoke;
