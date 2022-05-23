@@ -1,0 +1,279 @@
+* {
+    margin:0px auto;
+    padding: 0px;
+    /* background-image: url("sorapics/background.webp"); */
+    /* border: 2px dotted white; */
+}
+
+/* NAVIGATIONAL BAR---------------------------------------------------- */
+
+.navbar {
+    width:900px;
+    height:50px;
+    background-color: lightblue;
+    display:flex;
+    justify-content: space-between;
+    border-style: groove;
+    border-color:lightslategray;
+    align-items: center;
+
+}
+
+.navbar h1 {
+    color:white;
+    margin-left: 70px;
+}
+
+.navlinks {
+    /* margin-left: 60px;
+    padding-left: 50px; */
+    /* flex will put all nav links on same line  */
+    display:flex;
+    /* moves nav links into center of navbar container */
+    align-items:center;
+    list-style: none;
+    color:whitesmoke;
+    margin: 0px;
+}
+
+.navlinks ul {
+
+}
+
+.navlinks li {
+    margin: 5px;
+}
+
+.btn {
+    /* margin-left:300px; */
+    width: 75px;
+    height: 30px;
+    color:lightseagreen;
+    background-color: whitesmoke;
+    border-radius:2px;
+    box-shadow: 0px 5px 10px black;
+}
+
+/* NAVIGATIONAL BAR---------------------------------------------------- */
+
+/* container & 2 columns-------------------------------------------------- */
+
+.container {
+    display:flex;
+    width:900px;   
+    background-image: url("sorapics/background.webp");
+}
+
+.columnleft {
+    flex:2;
+
+}
+
+/* container & 2 columns-------------------------------------------------- */
+
+/* Profile picture & descriptions----------------------------------------- */
+.block1 {
+    width:450px;
+    flex:1;
+    height: 300px;
+    margin-top: 40px;
+    border-style: groove;
+    border-color:lightslategray;
+}
+
+.topbar {
+    background-color:lightgoldenrodyellow;
+    height: 70px;
+}
+
+.topbar img {
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.name {
+    margin-left: 60px;
+    margin-top: 70px;
+    color: lightskyblue;
+}
+
+.location {
+    display:flex;
+    align-items: center;
+}
+
+.location img {
+width: 10px;
+height: 15px;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 60px;
+align-items: center;
+}
+
+.location h2 {
+    margin-right: 260px;
+    font-size: medium;
+    color: lightskyblue;
+    margin-top:10px;
+}
+
+.description {
+    display:flex;
+    font-size: small;
+    margin-right: 50px;
+    margin-top:10px;
+}
+
+.edit {
+    height: 20px;
+    display:flex;
+    margin-top:10px;
+}
+
+.edit p {
+    color:lightskyblue;
+    margin-right: 280px;
+}
+
+.edit img {
+    width: 15px;
+    height: 15px;
+margin-left:60px;
+}
+
+.description h4 {
+    color:lightskyblue;
+}
+/* Profile picture & descriptions----------------------------------------- */
+
+
+.block2 {
+    width:450px;
+    height:300px;
+    margin-top: 40px;
+    border-style: groove;
+    border-color: lightslategray;
+}
+
+.education {
+    height:40px;
+    background-color:lightgoldenrodyellow;
+}
+
+.education h2 {
+    color:lightblue;
+    margin-left: 60px;
+    padding-top: 5px;
+}
+
+.education h3 {
+    margin-left: 60px;
+    margin-top: 10px;
+    color:gold;
+}
+
+.education p {
+    margin-left: 60px;
+    font-weight: bold;
+    color:lightcoral;
+}
+
+.education ul {
+    list-style: none;
+    margin-left: 60px;
+    color: lightblue;
+}
+
+
+
+.columnright {
+    flex:1;
+    width:400px;
+    height:800px;
+}
+
+.block3 {
+    width: 300px;
+    height: 250px;
+    margin-top: 40px;
+    border-style: groove;
+    border-color: lightslategray;
+}
+
+.requests {
+    height:30px;
+    background-color:lightgoldenrodyellow;
+}
+
+.requests h2 {
+    margin-left: 100px;
+    color:lightblue;
+}
+
+.requests p {
+    color:lightblue;
+    padding-right:80px;
+}
+
+.requests img {
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+
+.axel {
+    display:flex;
+    align-items: center;
+    margin-top:10px;
+}
+
+
+p {
+    font-weight: bold;
+}
+
+.axelicons img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.block4 {
+    width:300px;
+    height:350px;
+    margin-top: 40px;
+    border-style: groove;
+    border-color: lightslategray;
+}
+
+.friendsheader {
+    height: 30px;
+    background-color: lightgoldenrodyellow;
+}
+
+.friendsheader h2 {
+    margin-left: 100px;
+    color:lightblue;
+}
+
+.kairi {
+    display:flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px; 
+}
+
+.kairi img {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin-top:5px;
+}
+.kairi p {
+    padding-right: 150px;
+    color:lightblue;
+}
