@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes-Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">
+        <h1>Network</h1>
+    </div>
+    <div class="feed">
+        <h1>Your Feed</h1>
+    </div>
+    <div class="container">
+        <div class="leftcolumn">
+            <div class="avatar">
+                <img src="user-circle.png" alt="avatar">
+                <p>Add an Avatar</p>
+                <h1>James Doe</h1>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="holder1">
+                <div class="user1">
+                    <h2>Neil M</h2>
+                    <div class="likebox">
+                        <h3 id="count">0 like(s)</h3>
+                        <button onclick="counter(this)">Like</button>
+                    </div>
+                </div>
+                <div class="textbox">
+                    <h4>I just set up this new discord bot, let me know what you all think. link</h4>
+                </div>
+            </div>
+            <div class="holder2">
+                <div class="user2">
+                    <h2>Nichole K</h2>
+                    <div class="likebox2">
+                        <h3 id="two">0 like(s)</h3>
+                        <button onclick="counter2(this)">Like</button>
+                    </div>
+                </div>
+                <div class="textbox2">
+                    <h4>Just finished my next comic, check it out.</h4>
+                </div>
+            </div>
+            <div class="holder3">
+                <div class="user3">
+                    <h2>Jim R</h2>
+                    <div class="likebox3">
+                        <h3 id="three">0 like(s)</h3>
+                        <button onclick="counter3(this)">Like</button>
+                    </div>
+                </div>
+                <div class="textbox3">
+                    <h4>I can't stop listening to the new album. Who else is liking it?</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

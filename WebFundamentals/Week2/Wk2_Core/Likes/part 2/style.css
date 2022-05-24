@@ -1,0 +1,169 @@
+* {
+    margin: 0px auto;
+    padding: 0px
+}
+
+.topbar {
+    width: 700px;
+    height: 40px;
+    color:white;
+    background-color: black;
+    padding-left: 50px;
+
+}
+
+.feed {
+    width: 700px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    align-content: center;
+    padding-top: 5px;
+    padding-left: 580px;
+}
+
+.container {
+    width: 750px;
+    height: 500px;
+    display:flex;
+}
+
+.leftcolumn {
+    width: 300px;
+    height: 200px;
+    flex: 1;
+}
+
+.avatar{
+margin-top: 0px;
+border: 2px black;
+border-style: groove;
+margin-right: 5px;
+margin-left: 5px;
+}
+
+
+.avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.avatar p {
+    text-decoration: underline;
+    margin-top: 20px;
+    color:lightskyblue;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.avatar h1 {
+    color:black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.rightcolumn {
+
+    width: 300px;
+    height: 500px;
+    flex: 3;
+}
+/* =====================user1 */
+.holder1{
+    height: 120px;
+    border: 2px black;
+    border-style: groove;
+}
+
+.user1 {
+    display:flex;
+    height:60px;
+    align-items: center;
+}
+
+.likebox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.likebox button {
+    width: 70px;
+    height: 25px;
+    background-color:gold;
+    box-shadow: 0 2px 5px black;
+}
+
+.textbox {
+    width: 380px;
+}
+/* ==================user2 */
+
+.holder2{
+    height: 120px;
+    border: 2px black;
+    border-style: groove;
+    margin-top: 50px;
+}
+
+.user2 {
+    display:flex;
+    height:60px;
+    align-items: center;
+}
+
+.likebox2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    padding-right: 5px;
+}
+
+.likebox2 button {
+    width: 70px;
+    height: 25px;
+    background-color:gold;
+    box-shadow: 0 2px 5px black;
+}
+
+.textbox2 {
+    width: 380px;
+}
+
+/* =====================user3 */
+
+.holder3{
+    height: 120px;
+    border: 2px black;
+    border-style: groove;
+    margin-top: 50px;
+}
+
+.user3 {
+    display:flex;
+    height:60px;
+    align-items: center;
+}
+
+.likebox3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    padding-right: 5px;
+}
+
+.likebox3 button {
+    width: 70px;
+    height: 25px;
+    background-color:gold;
+    box-shadow: 0 2px 5px black;
+}
+
+.textbox3 {
+    width: 380px;
+}
