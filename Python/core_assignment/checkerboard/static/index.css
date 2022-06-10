@@ -1,0 +1,25 @@
+h1 {
+    color:red;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: red;
+    height: 40px;
+    width: 40px;
+}
+
+.box2 {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+}
+
