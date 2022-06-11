@@ -1,0 +1,9 @@
+table, th, td {
+    border: 1px groove black;
+    margin: auto;
+    padding: auto;
+    width: 900px;
+    height: 70px;
+    border-collapse: collapse;
+}
+
