@@ -1,0 +1,44 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+.container {
+    height: 350px;
+    width: 400px;
+    border: 1px;
+    border-style: groove;
+    border-color:black;
+    background-color: aliceblue;
+}
+
+.info {
+    height: 60px;
+    text-align: center;
+    margin-top:10px;
+}
+
+.name {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.location {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.language {
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+.comment {
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+

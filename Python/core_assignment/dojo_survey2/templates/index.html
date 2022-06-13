@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for( 'static', filename='index.css' ) }}"/>
+    <title>Dojo Survey</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Dojo Survey</h1>
+        </div>
+        <form action='/users' method="post">
+        <div class="name">
+            <h2>Your Name:</h2>
+            <div class="nameright">
+                <input type="text" id="name" name="name">
+            </div>
+            
+        </div>
+        <div class="location">
+            <h2>Your dojo location:</h2>
+            <div class="locationright">
+                <select id="location" name="location">
+                    <option>Select a location</option>
+                    <option>Burbank</option>
+                    <option>Chicago</option>
+                    <option>Online</option>
+                    <option>San Jose</option>
+                </select>
+            </div>
+        </div>
+        <div class="language">
+            <h2>Favorite Language:</h2>
+            <div class="languageright">
+                <select id="language" name="language">
+                    <option>Select a language</option>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>Javascript</option>
+                    <option>Python</option>
+                </select>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="commentright">
+                <h2>Comment optional:</h2>
+                <textarea id="comment" name="comment" cols="24" rows="10" ></textarea>
+                <input type='submit' value='Submit'>
+            </div>
+        </div>
+        </form>
+    </div>
+
+</body>
+</html>
