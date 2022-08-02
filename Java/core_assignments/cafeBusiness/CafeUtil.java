@@ -25,8 +25,11 @@ public class CafeUtil {
         // String menuItem3 = menuItems.get(2);
         // String menuItem4 = menuItems.get(3);
         // System.out.println(menuItems.get(0));
-        for(String item: menuItems){
-            System.out.println(item);
+        // for(String item: menuItems){
+        //     System.out.println(item);
+        // }
+        for (int i=0;i<menuItems.size();i++){
+            System.out.println(i + " " + menuItems.get(i));
         }
     }
 
